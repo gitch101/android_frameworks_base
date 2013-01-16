@@ -119,7 +119,7 @@ public class Clock extends TextView implements OnClickListener, OnLongClickListe
         }
 
         @Override 
-	public void onChange(boolean selfChange} {
+	public void onChange(boolean selfChange) {
             updateSettings();
         }
     }
